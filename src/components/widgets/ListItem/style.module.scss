@@ -1,0 +1,23 @@
+.listItem {
+  padding: 1.25rem;
+  border: 2px solid var(--color-black);
+  border-radius: 0.3125rem;
+  width: 37.5rem;
+  margin: 0.625rem;
+  color: var(--color-black);
+  background-color: var(--color-gray0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  &:hover {
+    color: var(--color-gray0);
+    background-color: var(--color-black);
+    border-color: var(--color-gray0);
+  }
+
+  span {
+    font-size: 1.5625rem;
+  }
+}

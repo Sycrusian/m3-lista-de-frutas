@@ -1,0 +1,29 @@
+:root {
+  --color-gray0: #f8f8f8;
+  --color-black: #000000;
+  --color-red: #ff0000;
+
+  --typeface: "Calibri", sans-serif;
+}
+
+body {
+  font-family: var(--typeface);
+  color: var(--color-black);
+  background-color: var(--color-gray0);
+}
+
+.lists {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.total {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
