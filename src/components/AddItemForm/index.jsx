@@ -20,7 +20,7 @@ export const AddItemForm = ({produceList, setProduceList}) => {
   return (
     <form className={styles.form} onSubmit={event => submit(event)}>
       <div>
-        <label htmlFor="produce">Item:</label>
+        <label htmlFor="produce">Item</label>
         <input
           name="produce"
           type="text"
@@ -28,7 +28,7 @@ export const AddItemForm = ({produceList, setProduceList}) => {
           onChange={e => setItem(e.currentTarget.value)} />
       </div>
       <div>
-        <label htmlFor="price">Preço:</label>
+        <label htmlFor="price">Preço</label>
         <input
           name="price"
           type="number"
@@ -36,7 +36,7 @@ export const AddItemForm = ({produceList, setProduceList}) => {
           onChange={e => setPrice(Number(e.currentTarget.value))} />
       </div>
       <div>
-        <label htmlFor="category">Categoria:</label>
+        <label htmlFor="category">Categoria</label>
         <select
           name="category"
           id="category"

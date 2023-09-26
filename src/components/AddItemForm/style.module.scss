@@ -1,6 +1,33 @@
 .form {
+  width: 90%;
+  margin: 1rem auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  padding: 1.25rem;
+  border: 2px solid var(--color-black);
+  border-radius: 0.3125rem;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  label {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  input, select, button {
+    cursor: pointer;
+    border: 2px solid var(--color-black);;
+    border-radius: 0.3125rem;
+    outline: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
 }
